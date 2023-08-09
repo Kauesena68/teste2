@@ -1,0 +1,23 @@
+.webButton {
+  button {
+    padding: 12px 20px;
+    cursor: pointer
+  }
+
+  .primary {
+    border: none;
+    border-radius: 10px;
+    background: linear-gradient(225deg, #130EF3 0%, #1E3615 99.99%);
+    color: white;
+    font-size: 16px;
+  }
+
+  .secundary {
+    background-color: #ffffff00;
+    border-radius: 5px;
+    border: 1px solid #1B23E3;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.50);
+    color: white;
+    font-size: 16px;
+  }
+}

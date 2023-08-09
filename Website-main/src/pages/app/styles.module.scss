@@ -1,0 +1,18 @@
+.app {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+  background-image: url('../../assets/background.svg');
+  background-size: cover;
+
+  h1 {
+    width: fit-content;
+    background: -webkit-linear-gradient(rgba(245, 209, 255, 1), rgba(245, 209, 255, 1));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 60px;
+    color: white;
+  }
+}
